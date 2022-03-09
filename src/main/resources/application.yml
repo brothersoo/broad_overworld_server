@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: overworld
+  jackson:
+    default-property-inclusion: NON_NULL
+  redis:
+    host: localhost
+    port: 6379
+
+server:
+  port: 3000
+
+#eureka:
+#  client:
+#    service-url:
+#      default-zone: ENC(IUcif1PWQnuguBobeiEuhkzGr5TNL6Vy2Q3ecFsRrYMKgWaRfVHFug==)
+
+jasypt:
+  encryptor:
+    password: ${JASYPT_PASSWORD}
+
+room:
+  demo: ENC(laRo77J8ih+X27D52aLfPA==)
+
