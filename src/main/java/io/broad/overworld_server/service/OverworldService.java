@@ -9,7 +9,6 @@ import io.broad.overworld_server.exception.NoSuchOverworldException;
 import io.broad.overworld_server.repository.OverworldRepository;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
 
 @Service

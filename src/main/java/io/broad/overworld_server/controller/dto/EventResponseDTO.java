@@ -3,7 +3,6 @@ package io.broad.overworld_server.controller.dto;
 import io.broad.overworld_server.domain.Player;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 @AllArgsConstructor
 @Getter
